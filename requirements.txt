@@ -1,0 +1,8 @@
+//To create Virtual environment
+python -m venv env
+
+//To activate a virtual environment
+env\Scripts\activate
+
+//To disable policy that prevents from running scripts
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
